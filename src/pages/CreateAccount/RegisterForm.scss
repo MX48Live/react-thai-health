@@ -1,0 +1,52 @@
+.register-form-container {
+  max-width: 560px;
+  margin: 0 auto;
+  .ant-input-prefix {
+    margin-right: 8px;
+    span svg {
+      fill: #BFBFBF;
+    }
+  }
+
+  .ant-form-item {
+    margin-bottom: 12px;
+  }
+
+  .two-column-group {
+    @media screen and (min-width: 768px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 12px;
+    }
+  }
+
+  .matching-password {
+    border: 1px solid #d9d9d9;
+    height: 32px;
+    line-height: 32px;
+    color: #d9d9d9;
+    text-align: center;
+    border-radius: 4px;
+    margin-bottom: 12px;
+  }
+  .matching-password.not-match {
+    color: #ff4d4f;
+    border-color: #ff4d4f;
+  }
+  .matching-password.match {
+    color: #039E78;
+    border-color: #039E78;
+  }
+
+  .checkbox-group {
+    margin-top: 12px;
+    .ant-form-item {
+      margin-bottom: 4px;
+    }
+  }
+
+  button.ant-btn-primary {
+    margin-top: 12px;
+    min-width: 180px;
+  }
+}

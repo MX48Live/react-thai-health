@@ -1,0 +1,28 @@
+.navbar-container {
+  background-color: #039E78;
+  padding: 5px 10px;
+  width: 100%;
+  .logo {
+    color: #FFFFFF;
+    display: grid;
+    grid-template-columns: 65px auto;
+    grid-gap: 20px;
+    align-items: center;
+    img {
+      height: 42px;
+    }
+
+    .headline {
+      font-family: Prompt;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+    }
+    .subline {
+      font-family: Prompt;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+    }
+  }
+}

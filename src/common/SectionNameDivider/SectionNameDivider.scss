@@ -1,0 +1,28 @@
+.section-name-divider-container {
+  margin-top: 18px;
+  margin-bottom: 12px;
+  position: relative;
+  height: 20px;
+
+  .name {
+    position: relative;
+    z-index: 2;
+    color: #262626;
+    font-size: 14px;
+    line-height: 22px;
+    height: 22px;
+    background-color: #FFFFFF;
+    padding-right: 10px;
+    font-weight: 600;
+  }
+  .line {
+    z-index: 1;
+    display: inline-block;
+    width: 100%;
+    min-height: 1px;
+    border-top: 1px solid #F0F0F0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+}
